@@ -16,11 +16,12 @@ curl  -X PATCH https://api.clerk.com/v1/instance \
       -d '{"allowed_origins": ["chrome-extension://hginakcpjpddcfaahaejbdklhaedbiap"]}'
 ```
 ### Run locally
-`npm i`: Installs deps
-`npm run build`: Creates dist-dev folder to load in Chrome
-`npm run watch`: dist-dev with watcher
+- `npm i`: Installs deps
+- `npm run build`: Creates dist-dev folder to load in Chrome
+- `npm run watch`: dist-dev with watcher
 
 ### ENV
+ ```
  System:
     OS: macOS 14.5
     CPU: (8) arm64 Apple M1
@@ -61,3 +62,4 @@ curl  -X PATCH https://api.clerk.com/v1/instance \
     webpack: ^5.95.0 => 5.95.0 
     webpack-cli: ^5.1.4 => 5.1.4 
     webpack-dev-server: ^5.1.0 => 5.1.0 
+```
