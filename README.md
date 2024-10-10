@@ -15,6 +15,10 @@ curl  -X PATCH https://api.clerk.com/v1/instance \
       -H "Content-type: application/json" \
       -d '{"allowed_origins": ["chrome-extension://hginakcpjpddcfaahaejbdklhaedbiap"]}'
 ```
+### Run locally
+`npm i`: Installs deps
+`npm run build`: Creates dist-dev folder to load in Chrome
+`npm run watch`: dist-dev with watcher
 
 ### ENV
  System:
